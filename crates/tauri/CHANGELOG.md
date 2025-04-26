@@ -1,5 +1,17 @@
 # Changelog
 
+## \[2.6.0]
+
+### New Features
+
+- [`267368fd4`](https://www.github.com/tauri-apps/tauri/commit/267368fd4f83e0a71dfb1b72a66d56592a2066bc) ([#13276](https://www.github.com/tauri-apps/tauri/pull/13276) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Add `Monitor::work_area` getter
+- [`267368fd4`](https://www.github.com/tauri-apps/tauri/commit/267368fd4f83e0a71dfb1b72a66d56592a2066bc) ([#13276](https://www.github.com/tauri-apps/tauri/pull/13276) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Added `tauri::PhysicalRect` and `tauri::LogicalRect` types.
+
+### Bug Fixes
+
+- [`039f44b7b`](https://www.github.com/tauri-apps/tauri/commit/039f44b7b1ecd411e3b3406aa28ccb8e8a0ec63a) ([#13307](https://www.github.com/tauri-apps/tauri/pull/13307) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Fix `TrayIcon.getById` returning a new resource ID instead of reusing a previously created id from `TrayIcon.new`.
+- [`76cbeef20`](https://www.github.com/tauri-apps/tauri/commit/76cbeef20848d9adf95c0e95ca17058dbf76fe1e) ([#13278](https://www.github.com/tauri-apps/tauri/pull/13278) by [@situ2001](https://www.github.com/tauri-apps/tauri/../../situ2001)) Fix JavaScript API `Webview.proxyUrl` had no effect when used in the `Webview` constructor
+
 ## \[2.5.1]
 
 ### Enhancements

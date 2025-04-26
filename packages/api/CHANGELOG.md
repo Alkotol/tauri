@@ -1,5 +1,11 @@
 # Changelog
 
+## \[2.6.0]
+
+### New Features
+
+- [`267368fd4`](https://www.github.com/tauri-apps/tauri/commit/267368fd4f83e0a71dfb1b72a66d56592a2066bc) ([#13276](https://www.github.com/tauri-apps/tauri/pull/13276) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Add `Monitor.workArea` field.
+
 ## \[2.5.0]
 
 ### New Features
